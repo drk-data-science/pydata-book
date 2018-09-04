@@ -1,0 +1,19 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+parse.py	../datasets/mta_perf/parse.py	1;"	kind:file	line:1
+DataFrame	../datasets/mta_perf/parse.py	/^from pandas import DataFrame$/;"	kind:namespace	line:1
+objectify	../datasets/mta_perf/parse.py	/^from lxml import objectify$/;"	kind:namespace	line:2
+path	../datasets/mta_perf/parse.py	/^path = 'Performance_MNR.xml'$/;"	kind:variable	line:4
+parsed	../datasets/mta_perf/parse.py	/^parsed = objectify.parse(open(path))$/;"	kind:variable	line:5
+root	../datasets/mta_perf/parse.py	/^root = parsed.getroot()$/;"	kind:variable	line:6
+data	../datasets/mta_perf/parse.py	/^data = []$/;"	kind:variable	line:8
+el_data	../datasets/mta_perf/parse.py	/^    el_data = {}$/;"	kind:variable	line:11
+perf	../datasets/mta_perf/parse.py	/^perf = DataFrame(data)$/;"	kind:variable	line:16
+ipython_bug.py	../examples/ipython_bug.py	1;"	kind:file	line:1
+works_fine	../examples/ipython_bug.py	/^def works_fine():$/;"	kind:function	line:1
+throws_an_exception	../examples/ipython_bug.py	/^def throws_an_exception():$/;"	kind:function	line:6
+calling_things	../examples/ipython_bug.py	/^def calling_things():$/;"	kind:function	line:11
